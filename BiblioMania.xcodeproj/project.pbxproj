@@ -31,6 +31,10 @@
 		E70B479E1886AD5F00E1B812 /* YandexSpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70B479D1886AD5F00E1B812 /* YandexSpeechKit.framework */; };
 		E70B47A01886B04800E1B812 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E70B479F1886B04800E1B812 /* libc++.dylib */; };
 		E70B47A21886B05900E1B812 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E70B47A11886B05900E1B812 /* libz.dylib */; };
+		E789BE4418918CBA00F09353 /* BMSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = E789BE4318918CBA00F09353 /* BMSegment.m */; };
+		E789BE4818918F6100F09353 /* BMLibraryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = E789BE4718918F6100F09353 /* BMLibraryAPI.m */; };
+		E789BE4B1891923000F09353 /* BMPersistencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E789BE4A1891923000F09353 /* BMPersistencyManager.m */; };
+		E789BE4F189199BD00F09353 /* NSArray+RandomIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = E789BE4E189199BD00F09353 /* NSArray+RandomIndex.m */; };
 		E7BEBE7C18913F7700461F0F /* bible.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7BEBE7B18913F7700461F0F /* bible.plist */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +79,14 @@
 		E70B479D1886AD5F00E1B812 /* YandexSpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YandexSpeechKit.framework; sourceTree = "<group>"; };
 		E70B479F1886B04800E1B812 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		E70B47A11886B05900E1B812 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		E789BE4218918CBA00F09353 /* BMSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMSegment.h; sourceTree = "<group>"; };
+		E789BE4318918CBA00F09353 /* BMSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMSegment.m; sourceTree = "<group>"; };
+		E789BE4618918F6100F09353 /* BMLibraryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMLibraryAPI.h; sourceTree = "<group>"; };
+		E789BE4718918F6100F09353 /* BMLibraryAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMLibraryAPI.m; sourceTree = "<group>"; };
+		E789BE491891923000F09353 /* BMPersistencyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMPersistencyManager.h; sourceTree = "<group>"; };
+		E789BE4A1891923000F09353 /* BMPersistencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMPersistencyManager.m; sourceTree = "<group>"; };
+		E789BE4D189199BD00F09353 /* NSArray+RandomIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RandomIndex.h"; sourceTree = "<group>"; };
+		E789BE4E189199BD00F09353 /* NSArray+RandomIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RandomIndex.m"; sourceTree = "<group>"; };
 		E7BEBE7B18913F7700461F0F /* bible.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bible.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,11 +166,12 @@
 		E7081890188694A5000D5541 /* BiblioMania */ = {
 			isa = PBXGroup;
 			children = (
+				E789BE4C1891997F00F09353 /* Categories */,
+				E789BE4518918F2200F09353 /* API */,
+				E789BE3F1891824E00F09353 /* Model */,
+				E789BE401891825300F09353 /* View */,
+				E789BE411891825A00F09353 /* Controller */,
 				E70B479B1886AD1B00E1B812 /* YandexSpeechKit.bundle */,
-				E7081899188694A5000D5541 /* BMAppDelegate.h */,
-				E708189A188694A5000D5541 /* BMAppDelegate.m */,
-				E708189F188694A5000D5541 /* BMViewController.h */,
-				E70818A0188694A5000D5541 /* BMViewController.m */,
 				E70818A2188694A5000D5541 /* Images.xcassets */,
 				E7081891188694A5000D5541 /* Supporting Files */,
 			);
@@ -194,6 +207,53 @@
 				E70818B2188694A5000D5541 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E789BE3F1891824E00F09353 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E789BE4218918CBA00F09353 /* BMSegment.h */,
+				E789BE4318918CBA00F09353 /* BMSegment.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E789BE401891825300F09353 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E789BE411891825A00F09353 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E708189F188694A5000D5541 /* BMViewController.h */,
+				E70818A0188694A5000D5541 /* BMViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E789BE4518918F2200F09353 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E7081899188694A5000D5541 /* BMAppDelegate.h */,
+				E708189A188694A5000D5541 /* BMAppDelegate.m */,
+				E789BE4618918F6100F09353 /* BMLibraryAPI.h */,
+				E789BE4718918F6100F09353 /* BMLibraryAPI.m */,
+				E789BE491891923000F09353 /* BMPersistencyManager.h */,
+				E789BE4A1891923000F09353 /* BMPersistencyManager.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		E789BE4C1891997F00F09353 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E789BE4D189199BD00F09353 /* NSArray+RandomIndex.h */,
+				E789BE4E189199BD00F09353 /* NSArray+RandomIndex.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,8 +391,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E789BE4418918CBA00F09353 /* BMSegment.m in Sources */,
 				E70818A1188694A5000D5541 /* BMViewController.m in Sources */,
+				E789BE4B1891923000F09353 /* BMPersistencyManager.m in Sources */,
 				E7081897188694A5000D5541 /* main.m in Sources */,
+				E789BE4F189199BD00F09353 /* NSArray+RandomIndex.m in Sources */,
+				E789BE4818918F6100F09353 /* BMLibraryAPI.m in Sources */,
 				E708189B188694A5000D5541 /* BMAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

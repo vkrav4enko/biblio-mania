@@ -8,6 +8,7 @@
 
 #import "BMViewController.h"
 #import <RaptureXML/RXMLElement.h>
+#import "BMLibraryAPI.h"
 
 @interface BMViewController () <YSKSpeechRecognitionViewControllerDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *textLabel;
@@ -22,7 +23,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [self loadData];
 }
 
 - (void)didReceiveMemoryWarning
@@ -57,32 +57,12 @@
 #pragma mark - actions
 
 - (IBAction)startButtonPressed:(UIButton *)sender {
-    [self startSpeechRecognition];
-}
-
-- (void) loadData
-{
-    NSData *plistData = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"bible" ofType:@"plist"]];
-    if (!plistData)
-    {
-        NSLog(@"error reading from file");
-        return;
-    }
-    NSPropertyListFormat format;
-    NSError *error = nil;
-    id plist = [NSPropertyListSerialization propertyListWithData:plistData options:NSPropertyListMutableContainersAndLeaves format:&format error:&error];
-    if (!error)
-    {
-        _bibliaContent = plist;
-    }
-    else
-    {
-        NSLog(@"error: %@", error);
-    }
+    [[BMLibraryAPI sharedInstance] getSegmentBySearch:@"Исход"];
+    //[self startSpeechRecognition];
 }
 
 - (IBAction)showButtonPressed:(id)sender {
-    
+    _textLabel.text = [[[BMLibraryAPI sharedInstance] getRandomSegment] text];
 }
 
 //- (void) XMLtoPlist
