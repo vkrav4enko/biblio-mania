@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A24EA12CB344776BD206DFB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B972DAAEF5D94DFBBCAA1363 /* libPods.a */; };
+		E708188B188694A5000D5541 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E708188A188694A5000D5541 /* Foundation.framework */; };
+		E708188D188694A5000D5541 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E708188C188694A5000D5541 /* CoreGraphics.framework */; };
+		E708188F188694A5000D5541 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E708188E188694A5000D5541 /* UIKit.framework */; };
+		E7081895188694A5000D5541 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7081893188694A5000D5541 /* InfoPlist.strings */; };
+		E7081897188694A5000D5541 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7081896188694A5000D5541 /* main.m */; };
+		E708189B188694A5000D5541 /* BMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E708189A188694A5000D5541 /* BMAppDelegate.m */; };
+		E708189E188694A5000D5541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E708189C188694A5000D5541 /* Main.storyboard */; };
+		E70818A1188694A5000D5541 /* BMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70818A0188694A5000D5541 /* BMViewController.m */; };
+		E70818A3188694A5000D5541 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70818A2188694A5000D5541 /* Images.xcassets */; };
+		E70818AA188694A5000D5541 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70818A9188694A5000D5541 /* XCTest.framework */; };
+		E70818AB188694A5000D5541 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E708188A188694A5000D5541 /* Foundation.framework */; };
+		E70818AC188694A5000D5541 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E708188E188694A5000D5541 /* UIKit.framework */; };
+		E70818B4188694A5000D5541 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E70818B2188694A5000D5541 /* InfoPlist.strings */; };
+		E70818B6188694A5000D5541 /* BiblioManiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E70818B5188694A5000D5541 /* BiblioManiaTests.m */; };
+		E70B47921886ABB200E1B812 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70B47911886ABB200E1B812 /* SystemConfiguration.framework */; };
+		E70B47941886ABBC00E1B812 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70B47931886ABBC00E1B812 /* CoreLocation.framework */; };
+		E70B47961886ABC700E1B812 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70B47951886ABC700E1B812 /* AudioToolbox.framework */; };
+		E70B47981886ABD000E1B812 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70B47971886ABD000E1B812 /* CoreAudio.framework */; };
+		E70B479A1886ABE200E1B812 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70B47991886ABE200E1B812 /* QuartzCore.framework */; };
+		E70B479C1886AD1B00E1B812 /* YandexSpeechKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E70B479B1886AD1B00E1B812 /* YandexSpeechKit.bundle */; };
+		E70B479E1886AD5F00E1B812 /* YandexSpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70B479D1886AD5F00E1B812 /* YandexSpeechKit.framework */; };
+		E70B47A01886B04800E1B812 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E70B479F1886B04800E1B812 /* libc++.dylib */; };
+		E70B47A21886B05900E1B812 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E70B47A11886B05900E1B812 /* libz.dylib */; };
+		E7BEBE7C18913F7700461F0F /* bible.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7BEBE7B18913F7700461F0F /* bible.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E70818AD188694A5000D5541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E708187F188694A4000D5541 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7081886188694A4000D5541;
+			remoteInfo = BiblioMania;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4757A348C7294AA78FDEE547 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		B972DAAEF5D94DFBBCAA1363 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7081887188694A5000D5541 /* BiblioMania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiblioMania.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E708188A188694A5000D5541 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E708188C188694A5000D5541 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E708188E188694A5000D5541 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E7081892188694A5000D5541 /* BiblioMania-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BiblioMania-Info.plist"; sourceTree = "<group>"; };
+		E7081894188694A5000D5541 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E7081896188694A5000D5541 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7081898188694A5000D5541 /* BiblioMania-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BiblioMania-Prefix.pch"; sourceTree = "<group>"; };
+		E7081899188694A5000D5541 /* BMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMAppDelegate.h; sourceTree = "<group>"; };
+		E708189A188694A5000D5541 /* BMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMAppDelegate.m; sourceTree = "<group>"; };
+		E708189D188694A5000D5541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E708189F188694A5000D5541 /* BMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMViewController.h; sourceTree = "<group>"; };
+		E70818A0188694A5000D5541 /* BMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMViewController.m; sourceTree = "<group>"; };
+		E70818A2188694A5000D5541 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E70818A8188694A5000D5541 /* BiblioManiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiblioManiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70818A9188694A5000D5541 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E70818B1188694A5000D5541 /* BiblioManiaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BiblioManiaTests-Info.plist"; sourceTree = "<group>"; };
+		E70818B3188694A5000D5541 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E70818B5188694A5000D5541 /* BiblioManiaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BiblioManiaTests.m; sourceTree = "<group>"; };
+		E70B47911886ABB200E1B812 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E70B47931886ABBC00E1B812 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E70B47951886ABC700E1B812 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E70B47971886ABD000E1B812 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		E70B47991886ABE200E1B812 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E70B479B1886AD1B00E1B812 /* YandexSpeechKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YandexSpeechKit.bundle; sourceTree = "<group>"; };
+		E70B479D1886AD5F00E1B812 /* YandexSpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YandexSpeechKit.framework; sourceTree = "<group>"; };
+		E70B479F1886B04800E1B812 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		E70B47A11886B05900E1B812 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		E7BEBE7B18913F7700461F0F /* bible.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bible.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7081884188694A4000D5541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70B47A21886B05900E1B812 /* libz.dylib in Frameworks */,
+				E70B47A01886B04800E1B812 /* libc++.dylib in Frameworks */,
+				E708188B188694A5000D5541 /* Foundation.framework in Frameworks */,
+				E708188F188694A5000D5541 /* UIKit.framework in Frameworks */,
+				E70B479A1886ABE200E1B812 /* QuartzCore.framework in Frameworks */,
+				E70B47981886ABD000E1B812 /* CoreAudio.framework in Frameworks */,
+				E70B47961886ABC700E1B812 /* AudioToolbox.framework in Frameworks */,
+				E70B47941886ABBC00E1B812 /* CoreLocation.framework in Frameworks */,
+				E70B47921886ABB200E1B812 /* SystemConfiguration.framework in Frameworks */,
+				E708188D188694A5000D5541 /* CoreGraphics.framework in Frameworks */,
+				E70B479E1886AD5F00E1B812 /* YandexSpeechKit.framework in Frameworks */,
+				5A24EA12CB344776BD206DFB /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70818A5188694A5000D5541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70818AA188694A5000D5541 /* XCTest.framework in Frameworks */,
+				E70818AC188694A5000D5541 /* UIKit.framework in Frameworks */,
+				E70818AB188694A5000D5541 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E708187E188694A4000D5541 = {
+			isa = PBXGroup;
+			children = (
+				E7081890188694A5000D5541 /* BiblioMania */,
+				E70818AF188694A5000D5541 /* BiblioManiaTests */,
+				E7081889188694A5000D5541 /* Frameworks */,
+				E7081888188694A5000D5541 /* Products */,
+				4757A348C7294AA78FDEE547 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		E7081888188694A5000D5541 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7081887188694A5000D5541 /* BiblioMania.app */,
+				E70818A8188694A5000D5541 /* BiblioManiaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7081889188694A5000D5541 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E70B47A11886B05900E1B812 /* libz.dylib */,
+				E70B479F1886B04800E1B812 /* libc++.dylib */,
+				E70B479D1886AD5F00E1B812 /* YandexSpeechKit.framework */,
+				E70B47991886ABE200E1B812 /* QuartzCore.framework */,
+				E70B47971886ABD000E1B812 /* CoreAudio.framework */,
+				E70B47951886ABC700E1B812 /* AudioToolbox.framework */,
+				E70B47931886ABBC00E1B812 /* CoreLocation.framework */,
+				E70B47911886ABB200E1B812 /* SystemConfiguration.framework */,
+				E708188A188694A5000D5541 /* Foundation.framework */,
+				E708188C188694A5000D5541 /* CoreGraphics.framework */,
+				E708188E188694A5000D5541 /* UIKit.framework */,
+				E70818A9188694A5000D5541 /* XCTest.framework */,
+				B972DAAEF5D94DFBBCAA1363 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7081890188694A5000D5541 /* BiblioMania */ = {
+			isa = PBXGroup;
+			children = (
+				E70B479B1886AD1B00E1B812 /* YandexSpeechKit.bundle */,
+				E7081899188694A5000D5541 /* BMAppDelegate.h */,
+				E708189A188694A5000D5541 /* BMAppDelegate.m */,
+				E708189F188694A5000D5541 /* BMViewController.h */,
+				E70818A0188694A5000D5541 /* BMViewController.m */,
+				E70818A2188694A5000D5541 /* Images.xcassets */,
+				E7081891188694A5000D5541 /* Supporting Files */,
+			);
+			path = BiblioMania;
+			sourceTree = "<group>";
+		};
+		E7081891188694A5000D5541 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E708189C188694A5000D5541 /* Main.storyboard */,
+				E7081892188694A5000D5541 /* BiblioMania-Info.plist */,
+				E7BEBE7B18913F7700461F0F /* bible.plist */,
+				E7081893188694A5000D5541 /* InfoPlist.strings */,
+				E7081896188694A5000D5541 /* main.m */,
+				E7081898188694A5000D5541 /* BiblioMania-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E70818AF188694A5000D5541 /* BiblioManiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E70818B5188694A5000D5541 /* BiblioManiaTests.m */,
+				E70818B0188694A5000D5541 /* Supporting Files */,
+			);
+			path = BiblioManiaTests;
+			sourceTree = "<group>";
+		};
+		E70818B0188694A5000D5541 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E70818B1188694A5000D5541 /* BiblioManiaTests-Info.plist */,
+				E70818B2188694A5000D5541 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7081886188694A4000D5541 /* BiblioMania */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70818B9188694A5000D5541 /* Build configuration list for PBXNativeTarget "BiblioMania" */;
+			buildPhases = (
+				F178E3C58BC8412888B12752 /* Check Pods Manifest.lock */,
+				E7081883188694A4000D5541 /* Sources */,
+				E7081884188694A4000D5541 /* Frameworks */,
+				E7081885188694A4000D5541 /* Resources */,
+				39B60F9CE9014A759575F78B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiblioMania;
+			productName = BiblioMania;
+			productReference = E7081887188694A5000D5541 /* BiblioMania.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E70818A7188694A5000D5541 /* BiblioManiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70818BC188694A5000D5541 /* Build configuration list for PBXNativeTarget "BiblioManiaTests" */;
+			buildPhases = (
+				E70818A4188694A5000D5541 /* Sources */,
+				E70818A5188694A5000D5541 /* Frameworks */,
+				E70818A6188694A5000D5541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E70818AE188694A5000D5541 /* PBXTargetDependency */,
+			);
+			name = BiblioManiaTests;
+			productName = BiblioManiaTests;
+			productReference = E70818A8188694A5000D5541 /* BiblioManiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E708187F188694A4000D5541 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = V;
+				TargetAttributes = {
+					E70818A7188694A5000D5541 = {
+						TestTargetID = E7081886188694A4000D5541;
+					};
+				};
+			};
+			buildConfigurationList = E7081882188694A4000D5541 /* Build configuration list for PBXProject "BiblioMania" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E708187E188694A4000D5541;
+			productRefGroup = E7081888188694A5000D5541 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7081886188694A4000D5541 /* BiblioMania */,
+				E70818A7188694A5000D5541 /* BiblioManiaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7081885188694A4000D5541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70818A3188694A5000D5541 /* Images.xcassets in Resources */,
+				E7081895188694A5000D5541 /* InfoPlist.strings in Resources */,
+				E708189E188694A5000D5541 /* Main.storyboard in Resources */,
+				E70B479C1886AD1B00E1B812 /* YandexSpeechKit.bundle in Resources */,
+				E7BEBE7C18913F7700461F0F /* bible.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70818A6188694A5000D5541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70818B4188694A5000D5541 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39B60F9CE9014A759575F78B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F178E3C58BC8412888B12752 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7081883188694A4000D5541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70818A1188694A5000D5541 /* BMViewController.m in Sources */,
+				E7081897188694A5000D5541 /* main.m in Sources */,
+				E708189B188694A5000D5541 /* BMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70818A4188694A5000D5541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70818B6188694A5000D5541 /* BiblioManiaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E70818AE188694A5000D5541 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7081886188694A4000D5541 /* BiblioMania */;
+			targetProxy = E70818AD188694A5000D5541 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7081893188694A5000D5541 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7081894188694A5000D5541 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E708189C188694A5000D5541 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E708189D188694A5000D5541 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E70818B2188694A5000D5541 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E70818B3188694A5000D5541 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E70818B7188694A5000D5541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E70818B8188694A5000D5541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E70818BA188694A5000D5541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4757A348C7294AA78FDEE547 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/vladimir/Documents/BiblioMania,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BiblioMania/BiblioMania-Prefix.pch";
+				INFOPLIST_FILE = "BiblioMania/BiblioMania-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E70818BB188694A5000D5541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4757A348C7294AA78FDEE547 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/vladimir/Documents/BiblioMania,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BiblioMania/BiblioMania-Prefix.pch";
+				INFOPLIST_FILE = "BiblioMania/BiblioMania-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E70818BD188694A5000D5541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BiblioMania.app/BiblioMania";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BiblioMania/BiblioMania-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BiblioManiaTests/BiblioManiaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E70818BE188694A5000D5541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BiblioMania.app/BiblioMania";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BiblioMania/BiblioMania-Prefix.pch";
+				INFOPLIST_FILE = "BiblioManiaTests/BiblioManiaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7081882188694A4000D5541 /* Build configuration list for PBXProject "BiblioMania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70818B7188694A5000D5541 /* Debug */,
+				E70818B8188694A5000D5541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70818B9188694A5000D5541 /* Build configuration list for PBXNativeTarget "BiblioMania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70818BA188694A5000D5541 /* Debug */,
+				E70818BB188694A5000D5541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70818BC188694A5000D5541 /* Build configuration list for PBXNativeTarget "BiblioManiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70818BD188694A5000D5541 /* Debug */,
+				E70818BE188694A5000D5541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E708187F188694A4000D5541 /* Project object */;
+}
